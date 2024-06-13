@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario de Ingreso TECH+</title>
+<style>
+    body{background-color: rgba(231, 170, 170, 0.781);}
+    h1{color: black;}
+    h2{color:black,}
+    p{color: black;}
+    label{color:black;}
+    input{color:black;}   
+</style>
+</head>
+<body>
+    <header>
+    <h1><strong>TECH+</strong></h1>
+    <p>Somos una organizacion de dicada a la formación y capacitacion
+        de las personas que quieren entrar en el mundo ti, nuestro compromiso es 
+        formar personas para el futuro y la vida laboral. </p>
+
+    <fieldset>
+        <h1>Formulario de Inscripsción Para Estudiantes TECH+</h1>
+    <form id="studentForm"></form>
+    <label for="id">ID:</label>
+    <input type="text" id="id" name="id" required>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" required>    
+
+
+    <div>
+        <div>
+        <label for="genre">Selecciona tu genero:</label>  
+    </div> 
+
+        <label>            
+            <input type="radio" name="genre" value="Hombre">
+            Hombre
+        </label>
+        <label>
+            <input type="radio" name="genre" value="Mujer">
+            Mujer
+        </label>
+        <label>          
+            <input type="radio" name="genre" value="Otro">
+            Otro Genero
+        </label>
+        
+    </div>
+    <div>
+    <label for="correo">Correo Electronico:</label>
+    <input type="text" id="correo" name="correo" required>
+    </div>
+    <div>
+    <label for="direccion">Direccción:</label>
+    <input type="text" id="direccion" name="direccion" required>
+    </div>
+    <div>
+    <label for="telefono">Telefono:</label>
+    <input type="text" id="telefono" name="telefono" required>
+    </div>
+    <div>
+    <label for="ciudad">Ciudad:</label>
+    <input type="text" id="ciudad" name="ciudad" required>
+    <label for="departamento">Departamento:</label>
+    <input type="text" id="departamento" name="departamento" required>
+    <label for="pais">Pais:</label>
+    <input type="text" id="pais" name="pais" required>
+    </div>   
+    <div>
+    <p><label for="Cuentanos sobre ti">Cuentanos acerca de ti:</label></p>
+    <textarea id="Cuentanos sobre ti" name="Cuentanos sobre ti" rows="4" cols="50"></textarea>
+    <br>
+    <input type="submit" value="submit">
+</div>
+</fieldset>
+<fieldset>
+    <h2>En que formación y horario deseas inscribirte:</h2>
+    <label for="curso">Curso el cual deseas formarte:</label>
+    <select id="curso" name="curso" required>
+        <option value="">Seleccione un curso</option>
+        <option value="Python">Python</option>
+        <option value="MySQL">MySQL</option>
+        <option value="MondoDB">MondoDB</option>
+        <option value="JavaScript">JavaScript</option>
+    </select>
+    <input type="submit" value="Guardar">
+</form>
+<div>
+<label for="modalidad">Modalidad la cual deseas estudiar:</label>
+<select id="modalidad" name="modalidad" required>
+    <option value="">Seleccione una opción</option>
+    <option value="Presencial">Presencial</option>
+    <option value="Virtual">Virtual</option>
+</select>
+<input type="submit" value="Guardar">
+</form>
+</div>
+<div>
+<label for="horario">Horario:</label>
+<select id="horario" name="horario" required>
+    <option value="">Seleccione una opción</option>
+    <option value="lunes,martes,miercoles de 8:00am a 4:00pm">Lunes,martes,miercoles de 8:00am a 4:00pm</option>
+    <option value="Jueves, viernes, sabado de 12:00pm a 8:00Pm">Jueves, viernes, sabado de 12:00pm a 8:00Pm</option>
+</select>
+<input type="submit" value="Guardar">
+</form>
+</div>
+</fieldset>
+<main>
+    <section>
+        <h2>Contactanos</h2>
+        <p>Te puedes cominicar a la linea fija 444-0001</p>
+    </section>
+    <section>
+        <h2>Proyectos</h2>
+        <p>Tenemos alianzas y proyectos con mas de 100 empresas tech de toda ek
+            area metropolitana
+        </p>
+    </section>
+    <section>
+        <h2>Resulados De Nuestos Cursos</h2>
+        <p>Tenemos los testimonios de nuestrsos egresados los cuales dan fe de las habilidades que 
+            desarrollan para su vida laboral como lo es el caso de Pepito Perez, el cual ya 
+            se encuentra empleado en una compañia Tech como analista de datos en el lenguaje de Python
+        </p>
+    </section>
+</main>
+</header>
+</body>
+</html>
